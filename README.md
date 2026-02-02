@@ -3,12 +3,12 @@
 
 
 
-Project Overview
+## Project Overview
 
 * This project builds an Artificial Neural Network (ANN) model to predict employee salary based on demographic, education, and job-related features.
 The task is a regression problem because salary is a continuous numeric value.
 
-Dataset Description
+## Dataset Description
 Input Features
 
 * Department (Categorical)
@@ -25,7 +25,7 @@ Target Variable
 
 * Salary (Numerical – continuous)
 
-End-to-End Workflow
+##  Workflow
 
 ```mermaid
 flowchart TD
@@ -203,7 +203,7 @@ Conclusion:
 * No underfitting
 * Stable learning
 
-🔍 Step 11: Salary Prediction
+Step 11: Salary Prediction
 
     y_pred = model.predict(X_test[:5])
 Output Example
@@ -212,7 +212,7 @@ Output Example
 ✔ Realistic
 ✔ Within expected salary range
 
- Final Conclusion
+##  Final Conclusion
 
 * ANN model performs very well
 
@@ -224,7 +224,7 @@ Output Example
 
 * Suitable for real-world salary prediction
 
-Key Takeaways
+## Key Takeaways
 
 * Proper preprocessing is crucial for ANN
 
